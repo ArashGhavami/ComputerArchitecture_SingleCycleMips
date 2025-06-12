@@ -53,8 +53,8 @@ for (int i = 0; i < 10; i++)
 
 ## Testing
 
-To verify your design using the provided Verilog testbench:
+To verify your design use the provided Verilog testbench:
 
 ```bash
-./synth_valid.sh schematic.circ HW5/tb1.v
+./synth_valid.sh schematic.circ tb.v
 
