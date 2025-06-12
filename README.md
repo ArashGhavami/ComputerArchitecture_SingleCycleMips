@@ -47,3 +47,14 @@ The processor must execute the following logic (originally written in C):
 int xs[3] = {0, 1, 0};
 for (int i = 0; i < 10; i++)
     xs[(i + 2) % 3] = xs[(i + 1) % 3] + xs[i % 3];
+```
+
+---
+
+## Testing
+
+To verify your design using the provided Verilog testbench:
+
+```bash
+./synth_valid.sh schematic.circ HW5/tb1.v
+
